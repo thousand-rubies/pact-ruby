@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 group :development, :test do
   gem 'rspec'
   gem 'pact', path: '../../'
-  gem 'pact_broker-client'
+  gem 'pact_broker-client', '>= 1.51.2'
   gem 'pry'
 end
 
